@@ -61,7 +61,8 @@ Shopify API 的访问令牌是通过创建自定义应用并安装到 Shopify �
      - **`write_publications`**: 允许直接发布商品(会发布所有channel)。
      - **`read_publications`**: 允许读取发布状态。
    - 当前支持Webhook version为2024-10
-     
+![image](https://github.com/user-attachments/assets/1cd2896e-c15e-4c0f-9af3-ccac33b222d3)
+
 3. **安装应用并获取 Access Token**：
    - 创建应用后，将其安装到 Shopify 商店。
    - 安装成功后，可以在应用的 API 凭证页面查看访问令牌（Access Token）。
