@@ -274,6 +274,7 @@ function renderMainPage(pwd) {
   <a href="/web/upload?pwd=${pwd}">Upload Product</a>
   <a href="/web/updateInventory?pwd=${pwd}">Update Inventory</a>
   <a href="/web/updatePrice?pwd=${pwd}">Update Price</a>
+  <a href="https://github.com/suwubee/shopify-product-manager/blob/main/readme_en.md" target='_blank'>Read Me How to Use</a>
 </body>
 </html>
 `
@@ -304,7 +305,7 @@ function renderUploadForm(pwd) {
 
     <label for="access_token">Access Token:</label>
     <input type="text" id="access_token" name="access_token" required>
-    <div class="example">Example: shpat_xxxx...</div>
+    <div class="example">Example: shpat_xxxx...<a href="https://github.com/suwubee/shopify-product-manager/blob/main/readme_en.md#obtaining-shopify-access-token" target='_blank'>How to Get</a></div>
 
     <label for="title">Product Title:</label>
     <input type="text" id="title" name="title" required>
