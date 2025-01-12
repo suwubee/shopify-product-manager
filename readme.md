@@ -51,10 +51,14 @@ Shopify API 的访问令牌是通过创建自定义应用并安装到 Shopify �
      - **`read_products`**: 允许读取商品信息。
      - **`write_inventory`**: 允许管理库存。
      - **`read_inventory`**: 允许读取库存信息。
-     - **`write_price_rules`**: 允许更新价格规则。
-     - **`read_price_rules`**: 允许读取价格规则。
-     - **`write_locations`**: 允许管理商店位置。
-     - **`read_locations`**: 允许读取商店位置数据。
+     - **`write_locations`**: 允许管理商店位置(可能不需要写入权限)。
+     - **`read_locations`**: 允许读取商店位置数据(获取库存ID)。
+     - **`write_metaobject_definitions`**: 允许写入商品自定义属性。
+     - **`read_metaobject_definitions`**: 允许读取商品自定义属性。
+     - **`read_metaobjects`**: 允许写入商品自定义属性。
+     - **`write_metaobjects`**: 允许读取商品自定义属性。
+     - **`write_publications`**: 允许直接发布商品(会发布所有channel)。
+     - **`read_publications`**: 允许读取发布状态。
 
 3. **安装应用并获取 Access Token**：
    - 创建应用后，将其安装到 Shopify 商店。
