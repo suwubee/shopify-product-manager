@@ -38,6 +38,38 @@ Before you begin, ensure you have the following:
 - **Cloudflare Account**: A Cloudflare account to deploy and manage Workers.
 - **Basic Knowledge**: Familiarity with Shopify's API, Cloudflare Workers, and JavaScript.
 
+## Obtaining Shopify Access Token
+
+The access token for the Shopify API is obtained by creating a custom app and installing it into your Shopify store. Here are the detailed steps:
+
+1. **Create a Custom App**:
+   - Log in to your Shopify admin panel, navigate to **Apps** > **Develop apps** > **Create an app**.
+   - Set the app name and link it to your developer account.
+
+2. **Configure Permission Scopes**:
+   - When creating the app, select the required permission scopes (Scopes) as needed. This project requires the following permissions:
+     - **`write_products`**: Allows creating and modifying products.
+     - **`read_products`**: Allows reading product information.
+     - **`write_inventory`**: Allows managing inventory.
+     - **`read_inventory`**: Allows reading inventory information.
+     - **`write_locations`**: Allows managing store locations (write permissions may not be required).
+     - **`read_locations`**: Allows reading store location data (to obtain inventory IDs).
+     - **`write_metaobject_definitions`**: Allows writing custom attribute definitions for products.
+     - **`read_metaobject_definitions`**: Allows reading custom attribute definitions for products.
+     - **`read_metaobjects`**: Allows writing custom attributes for products.
+     - **`write_metaobjects`**: Allows reading custom attributes for products.
+     - **`write_publications`**: Allows directly publishing products (will publish to all sales channels).
+     - **`read_publications`**: Allows reading publication status.
+   - Support Webhook version 2024-10
+
+3. **Install the App and Obtain the Access Token**:
+   - After creating the app, install it into your Shopify store.
+   - Once installed, you can view the access token (Access Token) on the app's API credentials page.
+
+For more detailed steps, refer to the official Shopify documentation:
+- [Shopify Admin API Authorization Guide](https://shopify.dev/docs/api/usage/access-scopes)
+- [How to Create a Custom App](https://help.shopify.com/en/manual/apps/app-types/custom-apps)
+
 ## Installation
 
 ### 1. Clone the Repository
