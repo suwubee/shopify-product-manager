@@ -1,6 +1,7 @@
-# Shopify 产品管理 Cloudflare Workers
+# Shopify 产品上传/管理 (基于Cloudflare Workers)
 
-![Shopify 产品管理](https://example.com/logo.png)
+[中文说明](https://github.com/suwubee/shopify-product-manager/blob/main/readme.md)
+[English Readme](https://github.com/suwubee/shopify-product-manager/blob/main/readme_en.md)
 
 一个 Cloudflare 工作器，旨在简化 Shopify 产品的管理。该工作器允许您通过 Shopify API 上传新产品、更新库存和价格、查询产品详细信息以及管理销售渠道。它包含一个用户友好的 Web 界面和一组 API 端点，以实现灵活的集成。
 
