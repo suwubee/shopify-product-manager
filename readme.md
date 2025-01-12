@@ -59,14 +59,15 @@ Shopify API 的访问令牌是通过创建自定义应用并安装到 Shopify �
      - **`write_metaobjects`**: 允许读取商品自定义属性。
      - **`write_publications`**: 允许直接发布商品(会发布所有channel)。
      - **`read_publications`**: 允许读取发布状态。
-
+   - 当前支持Webhook version为2024-10
+     
 3. **安装应用并获取 Access Token**：
    - 创建应用后，将其安装到 Shopify 商店。
    - 安装成功后，可以在应用的 API 凭证页面查看访问令牌（Access Token）。
 
 更多详细步骤请参考 Shopify 官方文档：
 - [Shopify Admin API 授权指南](https://shopify.dev/docs/api/usage/access-scopes)
-- [如何创建自定义应用](https://shopify.dev/docs/apps/custom-apps)
+- [如何创建自定义应用](https://help.shopify.com/zh-CN/manual/apps/app-types/custom-apps)
 
 ## 安装
 
