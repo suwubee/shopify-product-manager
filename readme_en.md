@@ -1,6 +1,8 @@
-# Shopify Product Manager Cloudflare Worker
+# Shopify Product Import/Manager with Cloudflare Worker
 
-![Shopify Product Manager](https://example.com/logo.png)
+[中文说明](https://github.com/suwubee/shopify-product-manager/blob/main/readme.md)
+<br>
+[English Readme](https://github.com/suwubee/shopify-product-manager/blob/main/readme_en.md)
 
 A Cloudflare Worker designed to facilitate seamless management of Shopify products. This worker enables you to upload new products, update inventory and prices, query product details, and manage sales channels directly through Shopify's API. It includes a user-friendly web interface and a set of API endpoints for flexible integration.
 
